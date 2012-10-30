@@ -1,4 +1,5 @@
 void merge(int a[], int b[], int n, int m){
+	
 	int k = m + n - 1;
 	int i = n - 1;
 	int j = m - 1;
@@ -15,6 +16,7 @@ void merge(int a[], int b[], int n, int m){
 }
 
 void prt(int a[], int n){
+
 	int i = 0;
 	for(i = 0; i < n; i++)
 		printf("%d\n", a[i]);
@@ -22,6 +24,7 @@ void prt(int a[], int n){
 }
 
 int main(){
+
 	int a[] = {6, 4, 3, 2, 1};
 	int b[] = {3, 2, 1};
 	
